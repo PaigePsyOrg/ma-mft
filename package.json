@@ -4,7 +4,7 @@
   "description": "<h1 align=center>Hugo PaperMod | <a href=\"https://adityatelange.github.io/hugo-PaperMod/\" rel=\"nofollow\">Demo</a></h1>",
   "main": "index.js",
   "scripts": {
-    "dev": "hugo server --i18n-warnings & tina dev",
+    "dev": "hugo server & tinacms dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
