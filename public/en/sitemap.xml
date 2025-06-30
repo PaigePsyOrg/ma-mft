@@ -2,88 +2,88 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:40247/ma-mft/about/</loc>
+    <loc>http://localhost:1313/ma-mft/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:40247/ma-mft/zh/about/"
+                href="http://localhost:1313/ma-mft/zh/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:40247/ma-mft/about/"
+                href="http://localhost:1313/ma-mft/about/"
                 />
   </url><url>
-    <loc>http://localhost:40247/ma-mft/categories/</loc>
+    <loc>http://localhost:1313/ma-mft/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:40247/ma-mft/zh/categories/"
+                href="http://localhost:1313/ma-mft/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:40247/ma-mft/categories/"
+                href="http://localhost:1313/ma-mft/categories/"
                 />
   </url><url>
-    <loc>http://localhost:40247/ma-mft/posts/hello-world/</loc>
+    <loc>http://localhost:1313/ma-mft/posts/hello-world/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:40247/ma-mft/zh/posts/hello-world/"
+                href="http://localhost:1313/ma-mft/zh/posts/hello-world/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:40247/ma-mft/posts/hello-world/"
+                href="http://localhost:1313/ma-mft/posts/hello-world/"
                 />
   </url><url>
-    <loc>http://localhost:40247/ma-mft/posts/</loc>
+    <loc>http://localhost:1313/ma-mft/posts/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:40247/ma-mft/zh/posts/"
+                href="http://localhost:1313/ma-mft/zh/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:40247/ma-mft/posts/"
+                href="http://localhost:1313/ma-mft/posts/"
                 />
   </url><url>
-    <loc>http://localhost:40247/ma-mft/tags/</loc>
+    <loc>http://localhost:1313/ma-mft/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:40247/ma-mft/zh/tags/"
+                href="http://localhost:1313/ma-mft/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:40247/ma-mft/tags/"
+                href="http://localhost:1313/ma-mft/tags/"
                 />
   </url><url>
-    <loc>http://localhost:40247/ma-mft/posts/testing-a-new-post/</loc>
+    <loc>http://localhost:1313/ma-mft/posts/testing-a-new-post/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:40247/ma-mft/zh/posts/testing-a-new-post/"
+                href="http://localhost:1313/ma-mft/zh/posts/testing-a-new-post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:40247/ma-mft/posts/testing-a-new-post/"
+                href="http://localhost:1313/ma-mft/posts/testing-a-new-post/"
                 />
   </url><url>
-    <loc>http://localhost:40247/ma-mft/</loc>
+    <loc>http://localhost:1313/ma-mft/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:40247/ma-mft/zh/"
+                href="http://localhost:1313/ma-mft/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:40247/ma-mft/"
+                href="http://localhost:1313/ma-mft/"
                 />
   </url>
 </urlset>

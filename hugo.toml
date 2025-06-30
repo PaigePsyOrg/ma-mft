@@ -3,9 +3,13 @@ languageCode = "en-us"
 title = "Ma, Peiqi - MFT Associate"
 theme = "PaperMod"
 
+# Change this setting
+relativeURLs = false
+canonifyURLs = true
+
 [params]
   description = "Licensed Marriage and Family Therapist Associate in [City, State]"
-  author = "Your Wife’s Name"
+  author = "Peiqi Ma"
   ShowShareButtons = true
   ShowReadingTime = false
   ShowToc = true
@@ -59,7 +63,7 @@ enableMissingTranslationPlaceholders = true
     contentDir = "content/en"
 
   [languages.zh]
-    title = "您的妻子姓名，婚姻家庭治疗师助理"
+    title = "马佩琪，婚姻家庭治疗师助理"
     weight = 2
     languageName = "中文"
     contentDir = "content/zh"
