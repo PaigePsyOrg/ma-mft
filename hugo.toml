@@ -1,0 +1,73 @@
+baseURL = "https://yourwife.github.io/"  # Update later with custom domain
+languageCode = "en-us"
+title = "Ma, Peiqi - MFT Associate"
+theme = "PaperMod"
+
+[params]
+  description = "Licensed Marriage and Family Therapist Associate in [City, State]"
+  author = "Your Wife’s Name"
+  ShowShareButtons = true
+  ShowReadingTime = false
+  ShowToc = true
+  ShowBreadCrumbs = true
+  
+[params.homeInfoParams]
+  heroImage = 'images/lego-gege.jpg'
+
+[languages.en.params.homeInfoParams]
+    Title = "Welcome to My Therapy Practice"
+    Content = "Offering compassionate counseling for individuals and couples in [City, State]. Book a session today."
+
+[languages.zh.params.homeInfoParams]
+    Title = "欢迎来到我的治疗实践"
+    Content = "为个人和伴侣提供富有同情心的咨询服务。[城市，州]。立即预约。"
+
+[[menu.main]]
+  name = "home"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  name = "about"
+  url = "/about/"
+  weight = 2
+[[menu.main]]
+  name = "services"
+  url = "/services/"
+  weight = 3
+[[menu.main]]
+  name = "blog"
+  url = "/posts/"
+  weight = 4
+[[menu.main]]
+  name = "contact"
+  url = "/contact/"
+  weight = 5
+[[menu.main]]
+  name = "book"
+  url = "/book/"
+  weight = 6
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableMissingTranslationPlaceholders = true
+
+[languages]
+  [languages.en]
+    title = "Ma Peiqi, MFT Associate"
+    weight = 1
+    languageName = "English"
+    contentDir = "content/en"
+
+  [languages.zh]
+    title = "您的妻子姓名，婚姻家庭治疗师助理"
+    weight = 2
+    languageName = "中文"
+    contentDir = "content/zh"
+    [languages.zh.params]
+      description = "为华裔社区提供家庭治疗服务"
+
+[i18n]
+  [i18n.en]
+    languageName = "English"
+  [i18n.zh]
+    languageName = "中文"
