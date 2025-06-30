@@ -14,6 +14,18 @@
                 href="http://localhost:1313/ma-mft/about/"
                 />
   </url><url>
+    <loc>http://localhost:1313/ma-mft/book/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/ma-mft/zh/book/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/ma-mft/book/"
+                />
+  </url><url>
     <loc>http://localhost:1313/ma-mft/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -24,6 +36,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/ma-mft/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ma-mft/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/ma-mft/zh/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/ma-mft/contact/"
                 />
   </url><url>
     <loc>http://localhost:1313/ma-mft/posts/hello-world/</loc>
@@ -72,6 +96,18 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/ma-mft/posts/testing-a-new-post/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ma-mft/services/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/ma-mft/zh/services/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/ma-mft/services/"
                 />
   </url><url>
     <loc>http://localhost:1313/ma-mft/</loc>

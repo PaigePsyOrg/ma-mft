@@ -92,5 +92,41 @@
                 hreflang="zh"
                 href="http://localhost:1313/ma-mft/zh/about/"
                 />
+  </url><url>
+    <loc>http://localhost:1313/ma-mft/zh/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/ma-mft/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/ma-mft/zh/contact/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ma-mft/zh/services/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/ma-mft/services/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/ma-mft/zh/services/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ma-mft/zh/book/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/ma-mft/book/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/ma-mft/zh/book/"
+                />
   </url>
 </urlset>

@@ -51,7 +51,7 @@ export default defineConfig({
           },
         ],
       },
-       {
+      {
         name: "home",
         label: "Homepage",
         path: "content",
@@ -66,7 +66,7 @@ export default defineConfig({
           { type: "image", name: "heroImage", label: "Hero Image", required: false },
         ],
       },
-             {
+      {
         name: "about",
         label: "About",
         path: "content",
@@ -80,10 +80,80 @@ export default defineConfig({
           { type: "string", name: "description", label: "SEO Description" },
           { type: "string", name: "credentials", label: "Credentials" },
           { type: "string", name: "psychologyTodayLink", label: "Psychology Today URL" },
-          { type: "image", name: "profileImage", label: "Profile Image", required: false },
-          
-     
-    ],
-  },]
+          { 
+            type: "image", 
+            name: "profileImage",
+            label: "Profile Image",
+            required: false,
+          },
+        ],
+      },
+      // New collections for Services, Contact, and Book pages
+      {
+        name: "services",
+        label: "Services",
+        path: "content",
+        format: "md",
+        match: {
+          include: "*/services/_index",
+        },
+        fields: [
+          { type: "string", name: "title", label: "Title", isTitle: true, required: true },
+          { type: "rich-text", name: "body", label: "Content", isBody: true },
+          { type: "string", name: "description", label: "SEO Description" },
+          { 
+            type: "object", 
+            name: "servicesList", 
+            label: "Services List",
+            list: true,
+            ui: {
+              itemProps: (item) => {
+                return { label: item?.name };
+              },
+            },
+            fields: [
+              { type: "string", name: "name", label: "Service Name" },
+              { type: "string", name: "description", label: "Service Description" },
+              { type: "number", name: "price", label: "Price (leave blank if varies)" },
+              { type: "boolean", name: "featured", label: "Featured Service" },
+            ],
+          },
+        ],
+      },
+      {
+        name: "contact",
+        label: "Contact",
+        path: "content",
+        format: "md",
+        match: {
+          include: "*/contact/_index",
+        },
+        fields: [
+          { type: "string", name: "title", label: "Title", isTitle: true, required: true },
+          { type: "rich-text", name: "body", label: "Content", isBody: true },
+          { type: "string", name: "description", label: "SEO Description" },
+          { type: "string", name: "email", label: "Email Address" },
+          { type: "string", name: "phone", label: "Phone Number" },
+          { type: "string", name: "location", label: "Office Location" },
+          { type: "boolean", name: "showContactForm", label: "Show Contact Form" },
+        ],
+      },
+      {
+        name: "book",
+        label: "Book",
+        path: "content",
+        format: "md",
+        match: {
+          include: "*/book/_index",
+        },
+        fields: [
+          { type: "string", name: "title", label: "Title", isTitle: true, required: true },
+          { type: "rich-text", name: "body", label: "Content", isBody: true },
+          { type: "string", name: "description", label: "SEO Description" },
+          { type: "string", name: "bookingUrl", label: "Booking URL" },
+          { type: "string", name: "bookingInstructions", label: "Booking Instructions" },
+        ],
+      },
+    ]
   },
 });
