@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "hugo server & tinacms dev",
     "start": "npm run dev",
-    "build": "hugo --minify",
+    "build": "tinacms build && hugo --minify",
     "clean": "rm -rf public/ && rm -rf .hugo_build.lock",
     "stop": "pkill -f hugo && pkill -f tinacms",
     "test": "echo \"Error: no test specified\" && exit 1"
