@@ -2,4 +2,4 @@
 title: Testing a New Post
 ---
 
-Hi Ma!![](/images/image.jpg)
+Hi Ma!  Disco!!!![](/images/image.jpg)
