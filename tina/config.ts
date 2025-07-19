@@ -19,7 +19,6 @@ export default defineConfig({
     outputFolder: "admin",
     publicFolder: "static",
     basePath: "ma-mft",
-    host: "https://paigepsyorg.github.io",
   },
   media: {
     tina: {
