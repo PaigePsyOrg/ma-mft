@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "hugo server & tinacms dev",
+    "dev-secure": "hugo server & tinacms dev --auth",
     "start": "npm run dev",
-    "build": "hugo --minify --destination public",
+    "build": "tinacms build; hugo --minify --destination public",
     "hugo-only": "hugo --minify --destination public",
     "clean": "rm -rf public/ && rm -rf .hugo_build.lock",
     "stop": "pkill -f hugo && pkill -f tinacms",
