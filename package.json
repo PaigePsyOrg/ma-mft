@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "hugo server & tinacms dev",
     "start": "npm run dev",
-    "build": "tinacms build && hugo --minify --destination public",
+    "build": "hugo --minify --destination public",
     "hugo-only": "hugo --minify --destination public",
     "clean": "rm -rf public/ && rm -rf .hugo_build.lock",
     "stop": "pkill -f hugo && pkill -f tinacms",
