@@ -1,0 +1,40 @@
+:root {
+  --font-family-main: 'Lora', 'Libre Baskerville', Georgia, serif; /* Warmer serif font */
+  --font-family-headings: 'Montserrat', 'Open Sans', sans-serif; /* Clean sans-serif for headings */
+  --color-primary: #5a7d7c; /* Calming teal */
+  --color-secondary: #f9f3e6; /* Warm off-white */
+  --color-accent: #d4a373; /* Soft gold accent */
+  --color-text: #3a3a3a; /* Softer than pure black */
+  --color-background: #fefefe; /* Slightly warm white */
+}
+
+body {
+  font-family: var(--font-family-main);
+  line-height: 1.7;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-headings);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+.post-content a, .post-meta a {
+  color: var(--color-primary);
+}
+
+.button, .btn {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1rem 0;
+  transition: background-color 0.3s;
+}
+
+.button:hover, .btn:hover {
+  background-color: #486b6a;
+}

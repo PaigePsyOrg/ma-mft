@@ -32,7 +32,11 @@ jobs:
           extended: true
           
       - name: Build
+        env:
+          NEXT_PUBLIC_TINA_CLIENT_ID: ${{ secrets.NEXT_PUBLIC_TINA_CLIENT_ID }}
+          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
         run: |
+          npx @tinacms/cli build
           hugo --minify
           touch ./public/.nojekyll
         

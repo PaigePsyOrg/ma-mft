@@ -8,7 +8,7 @@ relativeURLs = false
 canonifyURLs = true
 
 [params]
-  description = "Licensed Marriage and Family Therapist Associate in [City, State]"
+  description = "Licensed Marriage and Family Therapist Associate in Southern California"
   author = "Peiqi Ma"
   ShowShareButtons = true
   ShowReadingTime = false
@@ -16,11 +16,11 @@ canonifyURLs = true
   ShowBreadCrumbs = true
   
 [params.homeInfoParams]
-  heroImage = 'images/lego-gege.jpg'
+  heroImage = 'images/image.jpg'
 
 [languages.en.params.homeInfoParams]
     Title = "Welcome to My Therapy Practice"
-    Content = "Offering compassionate counseling for individuals and couples in [City, State]. Book a session today."
+    Content = "Offering compassionate counseling for individuals and couples. Book a session today."
 
 [languages.zh.params.homeInfoParams]
     Title = "欢迎来到我的治疗实践"

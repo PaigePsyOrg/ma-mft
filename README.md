@@ -1,106 +1,262 @@
-<h1 align=center>Hugo PaperMod | <a href="https://adityatelange.github.io/hugo-PaperMod/" rel="nofollow">Demo</a></h1>
+# Ma Peiqi MFT Website
 
-<h4 align=center>☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive</h4>
-<br>
+A simple guide for updating the therapy practice website.
 
-> Hugo PaperMod is a theme based on [hugo-paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).<br>
-> The goal of this project is to add more features and customization to the og theme.
+## Quick Start (Getting Back Into It)
 
-**Documentation** can be found here: [**📚 Wiki**](https://github.com/adityatelange/hugo-PaperMod/wiki)
+### Option A: Edit Online (Easiest for Your Wife)
+1. Go directly to: **https://paigepsyorg.github.io/ma-mft/admin**
+2. Log in with your Tina Cloud account
+3. Edit content directly in the browser
+4. Changes save automatically and publish to the live site
 
-**ExampleSite** can be found here: [**exampleSite**](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite). Demo is built up with [exampleSite](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite) as source.
+### Option B: Local Development
+```bash
+# Navigate to the project folder
+cd /home/baba/Development/ma-mft
 
-[![hugo-papermod](https://img.shields.io/badge/Hugo--Themes-@PaperMod-blue)](https://themes.gohugo.io/themes/hugo-papermod/)
-[![Minimum Hugo Version](https://img.shields.io/static/v1?label=min-HUGO-version&message=>=v0.146.0&color=blue&logo=hugo)](https://github.com/gohugoio/hugo/releases/tag/v0.146.0)
-[![Discord](https://img.shields.io/discord/971046860317921340?label=Discord&logo=discord)](https://discord.gg/ahpmTvhVmp)
-[![GitHub](https://img.shields.io/github/license/adityatelange/hugo-PaperMod)](https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE)
-![code-size](https://img.shields.io/github/languages/code-size/adityatelange/hugo-PaperMod)
-[![X (formerly Twitter) URL](https://img.shields.io/badge/-Share%20on%20X-gray?style=flat&logo=x)](https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod)
+# Install dependencies (only needed first time or after updates)
+npm install
 
+# Start both Hugo and TinaCMS (watches for changes automatically)
+npm run dev
+
+# Your site will be available at: http://localhost:1313
+# TinaCMS editor will be available at: http://localhost:1313/admin
+```
+
+## One-Time Setup for Online Editing
+
+### Setting up Tina Cloud (Do this once)
+
+1. **Sign up for Tina Cloud:**
+   - Go to [tina.io](https://tina.io)
+   - Sign up with your GitHub account
+   - Connect your `ma-mft` repository
+
+2. **Add credentials to GitHub:**
+   - In your GitHub repository, go to Settings > Secrets and Variables > Actions
+   - Add these repository secrets:
+     - `NEXT_PUBLIC_TINA_CLIENT_ID` (from Tina Cloud dashboard)
+     - `TINA_TOKEN` (from Tina Cloud dashboard)
+
+3. **Add your wife as a collaborator:**
+   - In Tina Cloud dashboard, invite your wife's email
+   - She can then edit at: https://paigepsyorg.github.io/ma-mft/admin
+
+### Benefits of Online Editing:
+- ✅ Your wife can edit from anywhere, any device
+- ✅ No need to install anything locally
+- ✅ Changes publish automatically to the live site
+- ✅ Built-in authentication and permissions
+- ✅ Real-time collaboration if you both edit
+
+### 2. Make Content Changes
+
+**Option A: Use Tina CMS (Easiest - Recommended)**
+1. With `npm run dev` running, go to: `http://localhost:1313/admin`
+2. Log in with your Tina account
+3. Edit pages directly through the visual editor
+4. Changes save automatically and you'll see them instantly in your browser
+
+**Option B: Edit Files Directly**
+- **English content:** Files in `content/en/`
+- **Chinese content:** Files in `content/zh/`
+- Edit `.md` files with any text editor
+- Save the file and refresh your browser to see changes
+
+### 3. Stop Development Server
+```bash
+# When you're done editing
+npm run stop
+```
+
+### 4. Publish Changes
+```bash
+# Save your changes
+git add .
+git commit -m "Update website content"
+git push origin main
+
+# GitHub will automatically publish to: https://paigepsyorg.github.io/ma-mft/
+```
+
+## Available NPM Commands
+
+```bash
+npm run dev      # Start development (Hugo + TinaCMS together)
+npm start        # Same as npm run dev
+npm run build    # Build site for production
+npm run clean    # Clean build files (if something breaks)
+npm run stop     # Stop all running servers
+```
+
+## Site Structure
+
+```
+content/
+├── en/                     # English content
+│   ├── _index.md          # Homepage
+│   ├── about/_index.md    # About page
+│   ├── services/_index.md # Services page
+│   ├── contact/_index.md  # Contact page
+│   ├── book/_index.md     # Booking page
+│   └── posts/             # Blog posts
+└── zh/                     # Chinese content (same structure)
+    ├── _index.md
+    ├── about/_index.md
+    └── ...
+```
+
+## Common Tasks
+
+### Adding a New Blog Post
+
+**Using Tina CMS (Recommended):**
+1. Make sure `npm run dev` is running
+2. Go to `http://localhost:1313/admin`
+3. Click "Posts" → "Create New"
+4. Fill out the form
+5. Save - changes appear instantly
+
+**Manually:**
+1. Create a new `.md` file in `content/en/posts/` or `content/zh/posts/`
+2. Add this header:
+```markdown
+---
+title: "Your Post Title"
+date: 2025-07-19T10:00:00-08:00
+draft: false
+tags: ["tag1", "tag2"]
+---
+
+Your content here...
+```
+
+### Updating Contact Information
+
+**Using Tina CMS:**
+1. Go to `http://localhost:1313/admin`
+2. Click "Contact" 
+3. Edit the fields
+4. Save
+
+**Manually:**
+1. Edit `content/en/contact/_index.md` and `content/zh/contact/_index.md`
+2. Update the front matter fields:
+```markdown
+---
+email: "your.email@example.com"
+phone: "(555) 123-4567"
+location: "Your City, State"
+---
+```
+
+### Adding/Changing Services
+
+**Using Tina CMS:**
+1. Go to `http://localhost:1313/admin`
+2. Click "Services"
+3. Edit the services list
+4. Add/remove/modify services as needed
+
+### Updating Booking URL
+
+**Using Tina CMS:**
+1. Go to `http://localhost:1313/admin`
+2. Click "Book"
+3. Update the booking URL field
+
+## Images
+
+### Adding Images
+1. Put images in the `static/images/` folder
+2. Reference them in markdown as: `![Alt text](/images/your-image.jpg)`
+3. Or in Tina CMS, use the image picker
+
+### Recommended Image Sizes
+- **Profile photo:** 400x400px
+- **Hero image:** 1200x600px
+- **Blog images:** 800x400px
+
+## Troubleshooting
+
+### Site Won't Start
+```bash
+# Clean everything and try again
+npm run clean
+npm run dev
+```
+
+### Changes Not Showing
+1. Make sure `npm run dev` is still running
+2. Hard refresh your browser (Ctrl+F5 or Cmd+Shift+R)
+3. Check the terminal for any error messages
+
+### Tina CMS Won't Load
+1. Make sure `npm run dev` is running (not just `hugo server`)
+2. Check if you're logged into Tina.io
+3. Try `http://localhost:1313/admin/index.html` directly
+
+### Port Already in Use Error
+```bash
+# Stop everything and restart
+npm run stop
+npm run dev
+```
+
+### GitHub Pages Not Updating
+1. Check the Actions tab in your GitHub repository
+2. Look for any failed builds (red X marks)
+3. Make sure GitHub Pages is enabled in repository settings
+
+## Important URLs
+
+- **Online CMS Editor (for your wife):** https://paigepsyorg.github.io/ma-mft/admin
+- **Live website:** https://paigepsyorg.github.io/ma-mft/
+- **Local development:** http://localhost:1313
+- **Local Tina CMS editor:** http://localhost:1313/admin
+- **GitHub repository:** https://github.com/PaigePsyOrg/ma-mft
+
+## Typical Workflow
+
+1. `cd /home/baba/Development/ma-mft`
+2. `npm run dev`
+3. Go to `http://localhost:1313/admin` to edit content
+4. Preview changes at `http://localhost:1313`
+5. When done: `npm run stop`
+6. Commit and push changes to publish
+
+## Settings Files
+
+- **Main config:** `hugo.toml` (site settings, menus, languages)
+- **Tina config:** `tina/config.ts` (CMS settings)
+- **GitHub deployment:** `.github/workflows/hugo.yml`
+- **NPM scripts:** `package.json`
+
+## Contact Info to Update Regularly
+
+Remember to update these in both English and Chinese versions:
+- [ ] Email address
+- [ ] Phone number
+- [ ] Office location
+- [ ] Booking URL
+- [ ] Rates/pricing
+- [ ] Insurance information
+- [ ] Office hours
+
+## Annual Maintenance Checklist
+
+- [ ] Update copyright year in footer
+- [ ] Review and update services/rates
+- [ ] Update professional credentials
+- [ ] Check all links work
+- [ ] Update photos if needed
+- [ ] Review insurance information
+- [ ] Check contact information accuracy
+- [ ] Run `npm update` to update dependencies
 
 ---
 
-<p align="center">
-  <kbd><img src="https://user-images.githubusercontent.com/21258296/114303440-bfc0ae80-9aeb-11eb-8cfa-48a4bb385a6d.png" alt="Mockup image" title="Mockup"/></kbd>
-</p>
-
----
-
-## Features/Mods 💥
-
--   Uses Hugo's asset generator with pipelining, fingerprinting, bundling and minification by default.
--   3 Modes:
-    -   [Regular Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#regular-mode-default-mode)
-    -   [Home-Info Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#home-info-mode)
-    -   [Profile Mode.](https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode)
--   Table of Content Generation (newer implementation).
--   Archive of posts.
--   Social Icons (home-info and profile-mode).
--   Social-Media Share buttons on posts.
--   Menu location indicator.
--   Multilingual support. (with language selector).
--   Taxonomies.
--   Cover image for each post (with Responsive image support).
--   Light/Dark theme (automatic theme switch a/c to browser theme and theme-switch button).
--   SEO Friendly.
--   Multiple Author support.
--   Search Page with Fuse.js
--   Other Posts suggestion below a post
--   Breadcrumb Navigation.
--   Code Block Copy buttons.
--   Hugo's Chroma syntax highlighter.
--   No webpack, nodejs and other dependencies are required to edit the theme.
-
-Read Wiki For More Details => **[PaperMod - Features](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)**
-
----
-
-## Install/Update 📥
-
-Read Wiki For More Details => **[PaperMod - Installation](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)**
-
----
-
-## FAQs / How To's Guide 🙋
-
-Read Wiki For More Details => **[PaperMod-FAQs](https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs)**
-
----
-
-## Social-Icons/Share-Icons 🖼️
-
-Read Wiki For More Details => **[PaperMod-Icons](https://github.com/adityatelange/hugo-PaperMod/wiki/Icons)**
-
----
-
-## Release Changelog 📃
-
-Release ChangeLog has info about stuff added: **[Releases](https://github.com/adityatelange/hugo-PaperMod/releases)**
-
----
-
-## [Pagespeed Insights (100% ?)](https://pagespeed.web.dev/report?url=https://adityatelange.github.io/hugo-PaperMod/) 👀
-
----
-
-## Support 🫶
-
--   Star 🌟 this repository.
--   Help spread the word about PaperMod by sharing it on social media and recommending it to your friends. 🗣️
--   You can also sponsor 🏅 on [Github Sponsors](https://github.com/sponsors/adityatelange) / [Ko-Fi](https://ko-fi.com/adityatelange).
-
----
-
-## Special Thanks 🌟
-
--   [**Highlight.js**](https://github.com/highlightjs/highlight.js)
--   [**Fuse.js**](https://github.com/krisk/fuse)
--   [**Feather Icons**](https://github.com/feathericons/feather)
--   [**Simple Icons**](https://github.com/simple-icons/simple-icons)
--   **All Contributors and Supporters**
-
----
-
-## Stargazers over time 📈
-
-[![Stargazers over time](https://starchart.cc/adityatelange/hugo-PaperMod.svg?background=%23ffffff00&axis=%23858585&line=%236b63ff)](https://starchart.cc/adityatelange/hugo-PaperMod)
+*Last updated: July 2025*
+*For technical issues, refer to `About-hugo-template.md` for detailed Hugo documentation.*
