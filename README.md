@@ -5,7 +5,7 @@ A simple guide for updating the therapy practice website.
 ## Quick Start (Getting Back Into It)
 
 ### Option A: Edit Online (Easiest for Your Wife)
-1. Go directly to: **https://paigepsyorg.github.io/ma-mft/admin**
+1. Go directly to: **https://peiqima.com/admin**
 2. Log in with your Tina Cloud account
 3. Edit content directly in the browser
 4. Changes save automatically and publish to the live site
@@ -42,7 +42,7 @@ npm run dev
 
 3. **Add your wife as a collaborator:**
    - In Tina Cloud dashboard, invite your wife's email
-   - She can then edit at: https://paigepsyorg.github.io/ma-mft/admin
+   - She can then edit at: https://peiqima.com/admin
 
 ### Benefits of Online Editing:
 - ✅ Your wife can edit from anywhere, any device
@@ -78,7 +78,7 @@ git add .
 git commit -m "Update website content"
 git push origin main
 
-# GitHub will automatically publish to: https://paigepsyorg.github.io/ma-mft/
+# GitHub will automatically publish to: https://peiqima.com/
 ```
 
 ## Available NPM Commands
@@ -212,8 +212,8 @@ npm run dev
 
 ## Important URLs
 
-- **Online CMS Editor (for your wife):** https://paigepsyorg.github.io/ma-mft/admin
-- **Live website:** https://paigepsyorg.github.io/ma-mft/
+- **Online CMS Editor (for your wife):** https://peiqima.com/admin
+- **Live website:** https://peiqima.com/
 - **Local development:** http://localhost:1313
 - **Local Tina CMS editor:** http://localhost:1313/admin
 - **GitHub repository:** https://github.com/PaigePsyOrg/ma-mft
