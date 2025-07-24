@@ -17,8 +17,7 @@ export default defineConfig({
 
   build: {
     outputFolder: "admin",
-    publicFolder: "static",
-    basePath: "ma-mft",
+    publicFolder: "static"
   },
   media: {
     tina: {
