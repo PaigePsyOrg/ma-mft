@@ -35,6 +35,10 @@ canonifyURLs = true
   url = "/services/"
   weight = 3
 [[menu.main]]
+  name = "blog"
+  url = "/blog/"
+  weight = 4
+[[menu.main]]
   name = "contact"
   url = "/contact/"
   weight = 5
