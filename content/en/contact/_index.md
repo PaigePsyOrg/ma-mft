@@ -9,7 +9,7 @@ Thank you for your interest in my therapy services. I welcome your questions and
 
 ### Contact Information
 
-* **Email:** [p](mailto:contact@example.com)eiqimamft\@gmail.com
+* **Email:** peiqimamft@gmail.com
 * **Phone:** (424) 321-9134
 * **Office Location:** Woodland Hills, CA
 *
