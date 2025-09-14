@@ -1,6 +1,6 @@
 ---
-title: 'Peiqi Ma, MS, AMFT #155384'
-description: Offering compassionate counseling for the Chinese community
+title: Peiqi Ma - Psychotherapist
+description: 'Psychotherapist - individual therapy, couples therapy and family therapy'
 heroImage: images/lego-gege.jpg
 ---
 
