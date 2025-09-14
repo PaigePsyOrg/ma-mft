@@ -57,7 +57,7 @@ export default defineConfig({
         path: "content",
         format: "md",
         match: {
-          include: "**/_index", // Matches content/_index.md
+          include: "_index.md", // Only matches content/_index.md (root homepage)
         },
         fields: [
           { type: "string", name: "title", label: "Title", isTitle: true, required: true },
