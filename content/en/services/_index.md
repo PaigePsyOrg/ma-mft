@@ -1,20 +1,4 @@
 ---
-servicesList:
-  - name: Individual Therapy
-    description: >-
-      One-on-one therapy sessions focused on your personal growth and mental
-      wellbeing.
-    featured: true
-  - name: Couples Counseling
-    description: >-
-      Support for couples seeking to improve communication, resolve conflicts,
-      and strengthen their relationship.
-    featured: true
-  - name: Family Therapy
-    description: >-
-      Working with family members to improve relationships and communication
-      patterns.
-    featured: false
 title: Therapy Services
 description: 'Learn about the therapy services offered by Peiqi Ma, AMFT'
 ---
@@ -29,7 +13,7 @@ I offer a range of therapy services to support you on your journey to emotional 
 
 ## Rates and Insurance
 
-My standard session fee is $150. I offer a limited number of sliding scale spots for those experiencing financial hardship. Please inquire about current availability.
+My standard session fee is $175. I offer a limited number of sliding scale spots for those experiencing financial hardship. Please inquire about current availability.
 
 I am in-network with the following insurance providers:
 
