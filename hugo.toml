@@ -10,7 +10,7 @@ canonifyURLs = true
 [params]
   description = "Licensed Marriage and Family Therapist Associate in Southern California"
   author = "Peiqi Ma"
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowReadingTime = false
   ShowToc = true
   ShowBreadCrumbs = true
@@ -52,7 +52,7 @@ enableMissingTranslationPlaceholders = true
     contentDir = "content/en"
 
   [languages.zh]
-    title = "马佩琪，婚姻家庭治疗师助理"
+    title = "马佩琪，婚姻家庭治疗师"
     weight = 2
     languageName = "中文"
     contentDir = "content/zh"
