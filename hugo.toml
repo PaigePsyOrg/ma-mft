@@ -31,25 +31,14 @@ canonifyURLs = true
   url = "/"
   weight = 1
 [[menu.main]]
-  name = "about"
-  url = "/about/"
-  weight = 2
-[[menu.main]]
   name = "services"
   url = "/services/"
   weight = 3
 [[menu.main]]
-  name = "blog"
-  url = "/posts/"
-  weight = 4
-[[menu.main]]
   name = "contact"
   url = "/contact/"
   weight = 5
-[[menu.main]]
-  name = "book"
-  url = "/book/"
-  weight = 6
+
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
