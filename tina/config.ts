@@ -29,11 +29,11 @@ export default defineConfig({
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
+        name: "blog",
+        label: "Blog Posts",
         path: "content",
         match: {
-          include: "*/posts/**"
+          include: "*/blog/**"
         },
         fields: [
           {
@@ -57,7 +57,7 @@ export default defineConfig({
         path: "content",
         format: "md",
         match: {
-          include: "_index.md", // Only matches content/_index.md (root homepage)
+          include: "*/_index", // Matches content/en/_index.md and content/zh/_index.md
         },
         fields: [
           { type: "string", name: "title", label: "Title", isTitle: true, required: true },
