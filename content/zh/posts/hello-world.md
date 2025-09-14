@@ -1,13 +1,9 @@
 ---
-title: "你好，世界"
-date: 2025-06-30T10:00:00-08:00
+date: '2025-06-30T18:00:00.000Z'
 draft: false
-tags: ["介绍"]
+tags:
+  - 介绍
+title: 关于心理治疗
 ---
 
-## 这是我的第一篇博客文章。
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non lorem diam. Quisque vulputate nibh sodales eros pretium tincidunt. Aenean porttitor efficitur convallis. Nulla sagittis finibus convallis. Phasellus in fermentum quam, eu egestas tortor. Maecenas ac mollis leo. Integer maximus eu nisl vel sagittis.
-
-Suspendisse facilisis, mi ac scelerisque interdum, ligula ex imperdiet felis, a posuere eros justo nec sem. Nullam laoreet accumsan metus, sit amet tincidunt orci egestas nec. Pellentesque ut aliquet ante, at tristique nunc. Donec non massa nibh. Ut posuere lacus non aliquam laoreet. Fusce pharetra ligula a felis porttitor, at mollis ipsum maximus. Donec quam tortor, vehicula a magna sit amet, tincidunt dictum enim. In hac habitasse platea dictumst. Mauris sit amet ornare ligula, blandit consequat risus. Duis malesuada pellentesque lectus, non feugiat turpis eleifend a. Nullam tempus ante et diam pretium, ac faucibus ligula interdum.
-```
+也许你已经尝试过很多方法和途径，也许并不是每次都很如意。很棒的是你还在继续寻找可以帮助你的方法和方式。 希望我也可以给到你帮助。我专注关系和系统的议题，包括家庭，工作和人生阶段的转换相关的问题。 孕期及产后相关的心理议题也是我深入的方向之一，包括不孕不育以及产后抑郁症。 作为曾经的留子，现在的在美工作人员，移民相关的心理议题，尤其是职场女性可能面对的压力，也是我深入的方向。如果你对即将展开的心理咨询有任何问题，我提供首次免费15-30分钟的咨询，欢迎随时联系我。我也提供滑动比例的收费原则，欢迎询问。
